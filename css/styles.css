@@ -1,0 +1,108 @@
+
+/*navbar*/
+ul{
+  list-style-type: none;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width:100%;
+  border-bottom: 3px solid #ddd;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #ddd;
+  color: black;
+}
+.nav-right{
+  float: right;
+}
+
+/*image section*/
+.hamburger-image{
+  margin: 0 40px 20px;
+  text-align: center;
+}
+
+/*about catering*/
+#about-catering{
+  margin: 3% 20%;
+  text-align: center;
+}
+p{
+  text-align: justify;
+  line-height:2.0rem;
+}
+h5{
+  margin: 10% 0 5% 0;
+}
+.p-light{
+  font-weight: lighter;
+}
+.tablesetting2{
+  height: 700px;
+}
+
+/*our menu*/
+#our-menu{
+  margin: 3% 20%;
+  text-align: center;
+}
+h4,p{
+  text-align: left;
+}
+h4{
+  margin-top: 3rem;
+  font-weight: 400;
+}
+hr{
+  margin: 10% 0;
+  height: 0;
+}
+
+/*contact section*/
+#contact{
+  margin: 3% 20%;
+  text-align: left;
+}
+.fname{
+  border-top:0;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+  margin: 1% 0;
+  padding: 10px;
+}
+.submit{
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px 0 50px 0;
+}
+h2{
+  margin-bottom: 80px;
+}
+.contact-h5{
+  margin-top: 15px;
+}
+.contact-p{
+  margin-top: -30px;
+}
+
+/*footer section*/
+#footer{
+  background-color: #eee;
+}
+.p-footer{
+  padding: 50px;
+  text-align: center;
+}
